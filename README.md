@@ -1,6 +1,36 @@
 # AppointmentApp
+A simple Angular application demonstrating core Angular data binding concepts.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+
+## Overview
+This project showcases how Angular binds data between the component class and the HTML template using:
+
+Interpolation ({{ value }})
+
+Property binding ([property]="value")
+
+Event binding ((event)="handler()")
+
+Two-way binding ([(ngModel)]="model")
+
+## What You’ll Learn
+
+Bind component data to the view
+
+Respond to user input via event handlers
+
+Keep model and UI in sync with two-way binding
+
+## About Data Binding
+
+Angular’s data binding connects the component state with the UI template and can flow:
+
+From component to view
+
+From view to component
+
+Bi-directionally using [(ngModel)]
 
 ## Development server
 
